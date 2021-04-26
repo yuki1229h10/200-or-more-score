@@ -1,0 +1,105 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Gill Sans", sans-serif;
+  background-color: gray;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding: 2rem;
+  font-size: 3.6rem;
+  font-weight: bold;
+  color: #efefef;
+}
+
+table {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+
+td {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: bold;
+  cursor: pointer;
+  color: #fff;
+  background-color: #fff;
+  transition: 0.3s;
+}
+
+td:hover {
+  background-color: #efefef;
+}
+
+.text-box {
+  width: 120px;
+  padding: 2rem;
+  border: 3px solid #efefef;
+  border-radius: 8px;
+}
+
+.text {
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-align: center;
+  color: #efefef;
+}
+
+.column {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 5rem;
+}
+
+.btn-wrapper {
+  text-align: center;
+}
+
+.btn {
+  padding: 2rem;
+  border-radius: 8px;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #efefef;
+  background-color: orange;
+  cursor: pointer;
+}
+
+.none {
+  display: none;
+}
+
+
+@media screen and (max-width: 600px) {
+  .title {
+    font-size: 2rem;
+  }
+  td {
+    width: 25px;
+    height: 25px;
+  }
+  .flex {
+    flex-direction: column;
+  }
+}
