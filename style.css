@@ -99,8 +99,11 @@ td:hover {
     width: 25px;
     height: 25px;
   }
+  .text-box {
+    margin-bottom: 5rem;
+  }
   .flex {
     flex-direction: column;
-    gap: 5rem;
+    gap: 0;
   }
 }
